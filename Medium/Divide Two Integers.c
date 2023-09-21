@@ -4,7 +4,7 @@ int divide(long long int dividend, long long int divisor){
       
     }
     else
-     {
-      
-    
+    {
+         
+    }
 }
