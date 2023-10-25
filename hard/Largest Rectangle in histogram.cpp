@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//good solution
 public:
     int largestRectangleArea(vector<int>& heights) {
 
