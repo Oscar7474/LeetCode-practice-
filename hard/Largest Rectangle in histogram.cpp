@@ -24,3 +24,23 @@ public:
         return ans; 
     }
 };
+/* time exceed
+int largestRectangleArea(int* heights, int heightsSize) {
+    int maxArea = 0;
+    for (int i = 0; i < heightsSize; i++) {
+        int height = heights[i];
+        int width = 1;
+        for (int j = i - 1; j >= 0 && heights[j] >= height; j--) {
+            width++;
+        }
+        for (int j = i + 1; j < heightsSize && heights[j] >= height; j++) {
+            width++;
+        }
+        int area = height * width;
+        if (area > maxArea) {
+            maxArea = area;
+        }
+    }
+    return maxArea;
+}
+*/
